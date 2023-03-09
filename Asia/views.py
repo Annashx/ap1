@@ -6,3 +6,9 @@ from django.http import HttpResponse
 def index(request):
     return render(request,'index.html')
 
+def Coreia(request):
+    return render(request, 'coreia.html')
+
+def Japao(request):
+    return render(request, 'japao.html')
+
